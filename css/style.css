@@ -1,0 +1,53 @@
+body {
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    font-family: sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.cronometro {
+    color: #fff; 
+    font-size: 45pt; 
+    margin-bottom: 0px;
+}
+
+#btnIniciar {
+    width: 100%;
+    cursor: pointer;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #1FA2FF;
+    border-radius: 10px;
+}
+
+#btnIniciar:hover {
+    background: green;
+    color: #fff;
+}
+
+#btnZerar {
+    width: 100%; 
+    display: none;
+    cursor: pointer;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #1FA2FF;
+    border-radius: 10px;
+}
+
+#btnZerar:hover {
+    background: red;
+    color: #fff;
+}
